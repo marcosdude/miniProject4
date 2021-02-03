@@ -10,17 +10,23 @@ class Main {
     System.out.println("What number would you like on your jersey?");
     int favoriteNumber = scan.nextInt();
 
+  System.out.println("This is your information.");
 
+  String Name = playersName;
+   System.out.println(Name);
+
+  int Number = favoriteNumber;
+   System.out.println(Number);
   }
 
 
-  static String getName(playersName)
+  static String getName(String playersName)
   {
     String Name = playersName;
     return Name; 
   }
 
-  static int getNumber(favoriteNumber)
+  static int getNumber(int favoriteNumber)
   {
     int Number = favoriteNumber;
     return Number; 
