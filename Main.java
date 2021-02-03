@@ -5,11 +5,27 @@ class Main {
   {
     System.out.println("Hello! the Jerseys are finally in! We need your name and favorite number for your soccer jersey!");
     Scanner scan = new Scanner(System.in);
-    System.out.println("What is your name??");
-    String playersName = scan.nextInt();
-    System.out.println("What is your Favorite number?");
+    System.out.println("What name would you like on your jersey?");
+    String playersName = scan.next();
+    System.out.println("What number would you like on your jersey?");
     int favoriteNumber = scan.nextInt();
 
 
   }
+
+
+  static String getName(playersName)
+  {
+    String Name = playersName;
+    return Name; 
+  }
+
+  static int getNumber(favoriteNumber)
+  {
+    int Number = favoriteNumber;
+    return Number; 
+  }
+
+
+
 }
